@@ -1,0 +1,48 @@
+.location {
+    background-color: var(--bg-card);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    transition: transform 200ms ease;
+    color: white;
+}
+
+.location__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+    color: var(--green)
+}
+
+.location__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0.7em;
+}
+
+.location__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.5em;
+    padding-bottom: 1em;
+}
+
+.location__label {
+    padding: 0.7em;
+    display: flex;
+    justify-content: center
+}
+
+.location__item-value {
+    color: rgb(132, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.5em;
+}
